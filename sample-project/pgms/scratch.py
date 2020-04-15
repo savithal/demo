@@ -10,7 +10,7 @@ print("B's matrix=",len(B),"*",len(B[0]))
 if (len(A[0])== (len(B))):
     print("Matrix multiplication possible")
 else:
-    print("Invalid row and col")
+    print("Invalid row and col,cant multiply matrix")
     exit(1)
 
 result = [[0,0,0], [0,0,0], [0,0,0]]
